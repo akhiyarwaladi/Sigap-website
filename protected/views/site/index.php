@@ -251,21 +251,21 @@ $("#slider3").responsiveSlides({
                 <div class="team-row" style="width: 1192px;margin-left: 22px;">
                     <div class="col-md-3 team-grids">
                         <div class="team-img">
-                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/t1.jpg" alt="">
+                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/index.jpg" alt="">
                         </div>
                         <h4>AIMAN</h4>
                         <h6>Programmer</h6>
                     </div>
                     <div class="col-md-3 team-grids">
                         <div class="team-img">
-                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/t2.jpg" alt="">
+                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/index.jpg" alt="">
                         </div>
                         <h4>AZMI</h4>
                         <h6>Designer</h6>
                     </div>
                     <div class="col-md-3 team-grids">
                         <div class="team-img">
-                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/t3.jpg" alt="">
+                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/index.jpg" alt="">
                         </div>
                         <h4>AKHIYAR</h4>
                         <h6>Programmer</h6>
