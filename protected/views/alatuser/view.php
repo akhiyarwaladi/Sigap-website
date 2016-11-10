@@ -33,6 +33,7 @@ $suhu = array();
 $ph = array();
 $do = array();
 $tgl = array();
+$hasil = array();
 $data = $datasensor->search()->getData();
 $i= 1;
 foreach ($data as $dat){
@@ -40,9 +41,11 @@ foreach ($data as $dat){
     $phh = $dat->ph;
     $suhuu = $dat->suhu;
     $tgll = $dat->create_at;
+	$hasill = $dat->hasil;
     array_push($suhu,intval($suhuu));
     array_push($ph,intval($phh));
     array_push($do,intval($doo));
+	array_push($hasil,intval($hasill));
     array_push($tgl,$i++);
     
 }
@@ -66,7 +69,7 @@ foreach ($data as $dat){
                         'categories' => $tgl//array('14th', '15th', '16th', '17th', '18th', '19th', '20th', '21th', '22th', '23th', '24th', '25th', '26th', '27th', '28th')
                     ),
                     'yAxis' => array(
-                        'title' => array('text' => 'pH')
+                        'title' => array('text' => 'HPc')
                     ),
                     'credits' => array('enabled' => false),
                     'series' => array(
@@ -86,7 +89,7 @@ foreach ($data as $dat){
                     'categories' => $tgl//array('14th', '15th', '16th', '17th', '18th', '19th', '20th', '21th', '22th', '23th', '24th', '25th', '26th', '27th', '28th')
                 ),
                 'yAxis' => array(
-                    'title' => array('text' => '(mg/L)')
+                    'title' => array('text' => 'Uk level')
                 ),
                 'credits' => array('enabled' => false),
                 'series' => array(
@@ -106,11 +109,11 @@ foreach ($data as $dat){
                      'categories' => $tgl//array('14th', '15th', '16th', '17th', '18th', '19th', '20th', '21th', '22th', '23th', '24th', '25th', '26th', '27th', '28th')
                  ),
                  'yAxis' => array(
-                     'title' => array('text' => '(°C)')
+                     'title' => array('text' => 'Second')
                  ),
                  'credits' => array('enabled' => false),
                  'series' => array(
-                     array('name' => 'OpTime', 'data' => $suhu)//array(20, 25, 25, 35, 30, 28, 25, 27, 23, 24, 25, 26, 27, 28, 33)),
+                     array('name' => 'OpTime', 'data' => $hasil)//array(20, 25, 25, 35, 30, 28, 25, 27, 23, 24, 25, 26, 27, 28, 33)),
                  )
              )
          ));
