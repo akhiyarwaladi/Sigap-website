@@ -67,8 +67,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 array('label' => 'About', 'url' => array('#about'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
                                 array('label' => 'Features', 'url' => array('#features'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
                                 array('label' => 'Services', 'url' => array('#services'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
-                                array('label' => 'Team', 'url' => array('#team'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
-                                array('label' => 'Contact Us', 'url' => array('#contact'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
+                                //array('label' => 'Team', 'url' => array('#team'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
+                                //array('label' => 'Contact Us', 'url' => array('#contact'), 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
                                 array('label' => 'List Alat', 'url' => array('/alatuser/admin', 'view' => 'about'), 'visible' => !Yii::app()->user->isGuest, 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
                                 array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest, 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),),
                                 array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest, 'itemOptions' => array('class' => 'hvr-bounce-to-bottom'),)
