@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SiPadat</title>
+        <title>Sigap</title>
         <!-- Custom Theme files -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -82,7 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>	
         <!--//top-navigation-->
         <!--banner-->
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/slid.jpg" style="max-width: 252px;margin-top: -98px;margin-left: 32px;">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/themes/index/images/sigap1.png" style="max-width: 252px;margin-top: -98px;margin-left: 32px;">
         <div class="banner">		
             <!--header-->
             <div class="header">
@@ -309,7 +309,7 @@ $("#slider3").responsiveSlides({
         <!--footer-->
         <div class="footer">
             <div class="container">			
-                <p>© 2016 Sigap . All rights reserved </a></p>
+                <p>© 2016 Sigap. All rights reserved </a></p>
             </div>	
         </div>
         <!--//footer-->
